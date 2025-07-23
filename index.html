@@ -5,29 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
     <title>Programming Hero Assignment 2: Batch 12</title>
 </head>
 
-<body>
+<body class="max-w-[1440px] mx-auto max-sm:mx-4">
     <header>
         <!-- Navbar Section -->
-         <!-- Incomplete -->
-        <nav class="flex justify-between items-center max-w-[1440px] mx-4 md:mx-auto ">
-            <div class="">
-                <img class="" src="assets/logo.png" alt="This is logo of this website">
+        <nav class="flex justify-between items-center">
+            <div>
+                <img src="assets/logo.png" alt="This is logo of this website">
             </div>
-            <div class="">
-                <ul class="flex gap-x-12 ">
-                    <li class="hidden md:block"><a href="">Home</a></li>
-                    <li class="hidden md:block"><a href="">Shop</a></li>
-                    <li class="hidden md:block"><a href="">About us</a></li>
+            <div>
+                <ul class="flex gap-x-12 max-sm:gap-x-4">
+                    <li class="max-sm:hidden"><a href="">Home</a></li>
+                    <li class="max-sm:hidden"><a href="">Shop</a></li>
+                    <li class="max-sm:hidden"><a href="">About us</a></li>
                     <li><a href="">Cart ($56)</a></li>
                 </ul>
             </div>
         </nav>
+
         <!--Banner Section -->
+        <div class="flex justify-between mt-30 max-sm:mt-7 max-sm:flex-col ">
 
+            <div class="w-1/2 max-sm:w-full">
 
+                <h3 class="font-serif font-bold text-[65px] max-sm:text-2xl">
+                    <span>ALWAYS</span> <span class="text-[#E95A08]">FRESH</span> <br /> <span>FLOWERS</span>
+                </h3>
+
+                <p class="font-inter">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop.
+                    From classic roses to exotic blooms, we offer a wide variety of fresh flowers
+                    that are perfect for any occasion.
+                </p>
+            </div>
+            <div class="w-1/2 max-sm:w-full">
+                <img class="w-full" src="assets/hero-flower.png" alt="Flow image of hero section">
+            </div>
+        </div>
     </header>
     <main>
         <!-- Plants Section -->
